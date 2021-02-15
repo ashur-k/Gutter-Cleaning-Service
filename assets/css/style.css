@@ -3,7 +3,7 @@
 /* I am going to set serious variables here so later if changes are required we can centrally make all changes */
 :root {
     --web-primary-bg-color-theme:#0a354e !important;
-    --nav-bar-items-color:#fff;
+    --primary-font-color:#fff!important;
     --primary-font-family:'Lato';
   }
 
@@ -12,17 +12,51 @@
     margin: 0;
     font-family: var(--primary-font-family);
 }
+/*  #############################################################
+            Header Section All NAVBAR CSS Classes are here 
+    ##############################################################
+ */ 
 
 .navbar {
     opacity: 0.9;
     background: var(--web-primary-bg-color-theme);
     
 }
+.navbar-container{
+    align-content: center!important;
+    text-align: center!important;
+    justify-content: left!important;
+}
 
 .navbar-brand{
-    color: white !important;
+    color: var(--primary-font-color);
 }
 
 #navbarText > ul > li > a{
-    color: white;
+    color: var(--primary-font-color);
+}
+.navbar-toggler{
+    border-radius: 0 !important;
+    border: 1px solid  white !important;
+}
+.active{
+    border-bottom: 1px solid;
+}
+
+/*  #############################################################
+            First Section I named it as Hero section 
+    ##############################################################
+ */ 
+.index-hero-container {
+    height: 100vh;
+    background: url('../media/spec+01-640w.webp') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
 }
