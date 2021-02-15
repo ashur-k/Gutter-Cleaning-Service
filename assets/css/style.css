@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+/* I am going to set serious variables here so later if changes are required we can centrally make all changes */
+:root {
+    --web-primary-bg-color-theme:#0a354e !important;
+    --nav-bar-items-color:#fff;
+    --primary-font-family:'Lato';
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: var(--primary-font-family);
+}
+
+.navbar {
+    opacity: 0.9;
+    background: var(--web-primary-bg-color-theme);
+    
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+#navbarText > ul > li > a{
+    color: white;
+}
