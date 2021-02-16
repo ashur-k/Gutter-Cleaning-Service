@@ -21,7 +21,8 @@
      background: var(--web-primary-bg-color-theme);   
  }
  .hr-styling{
-    height: 1px; background-color: white;
+    height: 1px !important;
+    background-color: white;
  }
  .star-gold-color{
      color: gold;

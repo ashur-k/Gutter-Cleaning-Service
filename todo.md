@@ -9,14 +9,15 @@ Importa Notices for Mark:
     The plain image that I am using to create carousel transparent effect has been taken from google search I still have to look for its license
 
 1. I Need to sort out button
-2. I need to take all inline styling into style.css
+2. I need to take all inline styling into style.css / done
 3. I need to update buttons sizing and colors
 4. I need to re-look and also ask if svg in big sizes are looking good
-5. I need to ask about footer icons, and where to find color one (sorted)
+5. I need to ask about footer icons, and where to find color one / done
 6. I need to ask if user review carousel, if its looking ok
-7. I need to ask for advice for text on hero section has visibility issues
+7. I need to ask for advice for text on hero section has visibility issues / done
 8. I need to ask if font size on navigation needs increasing
-9. I haven't wrote media queries tommorrow I will do that
+9. I haven't wrote media queries tommorrow I will do that / done for home page
 
                                                                 16-02-2020
 1. Added image to title in browser window need to ask for same image in old project
+2. Carousel image has been kept out temporarily so it shows on github hosted pages for some reason github pages and workspace are not aceepting same folder path for assets
