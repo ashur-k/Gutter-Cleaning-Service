@@ -82,12 +82,3 @@
         Info and Customer Reviews Section -- 2nd Section
     ##############################################################
  */ 
-
- .video-container{
-    padding-top: 15px;
-    overflow: hidden;
-}
-.video-container iframe{
-    height: 630px;
-    width: 1120px;
-}
