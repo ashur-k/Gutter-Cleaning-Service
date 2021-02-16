@@ -20,6 +20,9 @@
  .primary-background-color{
      background: var(--web-primary-bg-color-theme);   
  }
+ .hr-styling{
+    height: 1px; background-color: white;
+ }
 
 
 /*  #############################################################
@@ -50,6 +53,9 @@
 .active{
     border-bottom: 1px solid;
 }
+.opacity-01{
+    opacity: 0.1;
+}
 
 /*  #############################################################
             Hero Section Contianer Is here -- 1st Section
@@ -78,7 +84,35 @@
     font-family: var(--secondary-font-family);
     
 }
+/* This class is added so text get more visible*/
+.hero-section-text-background-overlay{
+    background-color:rgba(0, 0, 0, 0.4);
+}
+.background-overlay-for-image-inside-herosection{
+    background-color:rgba(199, 199, 199, 20%);
+}
+.lg-img-size-radius{
+    height: 50px;
+    border-radius: 50%;
+}
 /*  #############################################################
         Info and Customer Reviews Section -- 2nd Section
     ##############################################################
  */ 
+
+ @media (max-width: 575.98px) { 
+    .media-mobile-font-size{
+        font-size: 16px !important;
+    }
+    .media-mobile-image-size{
+        height: 30px;
+    }
+    .h-100-on-mobile-screen{
+        height: 90% !important;
+    }
+ }
+
+ @include media-breakpoint-down(md) { 
+     
+  }
+ 
