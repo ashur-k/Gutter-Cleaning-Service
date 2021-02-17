@@ -11,7 +11,7 @@ previews.forEach((preview) => {
         original.classList.add("open") 
         //Dynamic chage text and image
         const originalSrc = preview.getAttribute("data-original");
-        original.src = `/assets/media/gallery-full-images/${originalSrc}`
+        original.src = `assets/media/gallery-full-images/${originalSrc}`
         const altText = preview.alt;
         caption.textContent = altText
           
