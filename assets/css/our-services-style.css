@@ -1,4 +1,20 @@
+/*  #############################################################
+                        Stand Alone Classes
+    ##############################################################
+ */
 .hr-styling{
     width: 150px;
     height: 2px !important;
+}
+/*
+#####################################################################
+                Hero Section Contianer Is here -- 1st Section
+#####################################################################
+
+*/
+.index-hero-container{
+    height: 70vh;
+    background: url('https://le-cdn.website-editor.net/791b158cfb034ac489f49c924ff0b75c/dms3rep/multi/opt/t3-1920w.jpg') no-repeat bottom center fixed;    
+    background-size: cover;
+    
 }
