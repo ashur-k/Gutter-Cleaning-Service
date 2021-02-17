@@ -20,4 +20,5 @@ Importa Notices for Mark:
 
                                                                 16-02-2020
 1. Added image to title in browser window need to ask for same image in old project
-2. Carousel image has been kept out temporarily so it shows on github hosted pages for some reason github pages and workspace are not aceepting same folder path for assets
+2. Carousel image has been kept out temporarily so it shows on github hosted pages for some reason github pages and workspace are not aceepting same folder path for assets.
+3. I have created parallax effect on our_services page.html I need to ask if its ok or should I make it exactly like old site
