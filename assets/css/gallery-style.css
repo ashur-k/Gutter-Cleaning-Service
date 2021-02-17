@@ -56,3 +56,34 @@
     left: 50%;
     transform: translate(-50%, -5%);
 }
+
+@media (max-width: 575.98px) { 
+    .gallery{   
+        grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+    
+    }
+ }
+
+ @media (min-width: 768px) { 
+     .gallery{   
+        grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
+    
+    }
+ }
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .gallery{   
+        grid-template-columns: repeat(3, 1fr);
+    
+    }
+}
+@media (min-width: 992px) { 
+    .gallery{   
+        grid-template-columns: repeat(4, 1fr);
+    
+    }
+ }
